@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  direction: rtl;
+}
+
+body {
+  background-color: #232423 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  font-family: SGKara !important;
+  font-weight: normal;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.text-english h1,
+.text-english h2,
+.text-english h3,
+.text-english h4,
+.text-english h5,
+.text-english h6,
+.text-english span,
+.text-english div {
+  font-family: "Spartan", sans-serif !important;
+  font-weight: initial !important;
+}
+
+.text-dark h1,
+.text-dark h2,
+.text-dark h3,
+.text-dark h4,
+.text-dark h6,
+.text-dark div,
+.text-dark p,
+.text-dark form {
+  color: black !important;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .no-tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .no-tablet {
+    display: none;
+  }
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -8px !important;
+}

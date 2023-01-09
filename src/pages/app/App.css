@@ -1,0 +1,25 @@
+.overflowHandler ::-webkit-scrollbar {
+  display: none !important;
+}
+
+.btn {
+  border-radius: 0rem !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overflowHandler {
+  -ms-overflow-style: none !important;
+  /* IE and Edge */
+  scrollbar-width: none !important;
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.mobile-and-tablet {
+  display: none;
+}
+@media (max-width: 900px) {
+  .mobile-and-tablet {
+    display: block;
+  }
+}

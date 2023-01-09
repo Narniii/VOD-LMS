@@ -1,0 +1,75 @@
+.product-single-info-title {
+  background-color: #64c5ba;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 25% !important;
+  height: 40px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-success {
+  background-color: #64c5ba !important;
+  border-radius: 0px !important;
+}
+
+.btn-outline-success {
+  border: 1px solid #64c5ba !important;
+  color: #64c5ba !important;
+  border-radius: 0px !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #64c5ba !important;
+  color: white !important
+}
+
+
+.discountBox .form-control {
+  background-color: #232423 !important;
+  color: white;
+  border: none !important;
+  font-family: "Spartan", sans-serif !important;
+}
+
+.discountBox .form-control:focus {
+  border-color: #64c5ba;
+  box-shadow: 0 1px 1px #64c5ba inset, 0 0 8px #64c5ba;
+  outline: 0 none;
+  color: white;
+}
+
+table {
+  border-radius: 10px;
+}
+
+td,
+tr {
+  padding: 5px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #649987;
+}
+
+tr:nth-child(odd) {
+  background-color: #a8a7a7;
+}
+
+@media(max-width:576px) {
+  .product-single-info-title {
+    background-color: #64c5ba;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 50% !important;
+    height: 40px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+  }
+}

@@ -1,0 +1,49 @@
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 5px !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 30px !important;
+}
+
+.editprofile-inputs .form-control {
+  width: 100%;
+  background-color: white !important;
+  height: 60px;
+}
+
+.editprofile-inputs .form-control:focus {
+  border-color: #64c5ba;
+  box-shadow: 0 1px 1px #64c5ba inset, 0 0 8px #64c5ba;
+  outline: 0 none;
+}
+
+.css-o4b71y-muiaccordionsummary-content.mui-expanded {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.overFlowHandler ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overFlowHandler {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.new-dashboard .MuiAccordion-root {
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: #2f3835 !important;
+  color: white !important
+}

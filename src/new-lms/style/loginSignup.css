@@ -1,0 +1,493 @@
+.containeeer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+}
+
+.mainn {
+  padding: 100px;
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSignupWrapper {
+  width: 95%;
+  top: 50%;
+  height: 70vh;
+  border-radius: 30px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid white; */
+  /* justify-content: center; */
+  /* 
+    background-image: url("/Stars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     */
+
+  /*
+  background-image: url('../../new-lms/nodes.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay; */
+  background-color: transparent;
+  background-color: #144047;
+
+  /* background: linear-gradient(
+      45deg,
+      rgba(13, 45, 62, 1) 14%,
+      rgba(20, 64, 71, 1) 34%,
+      rgba(15, 45, 62, 1) 55%,
+      rgba(20, 63, 70, 1) 100%
+    ); */
+
+  /* clip-path: polygon(
+      5% 0,
+      100% 0,
+      100% 0,
+      100% calc(100% - 5%),
+      calc(100% - 5%) 100%,
+      0 100%,
+      0 100%,
+      0 5%
+    ); */
+  /* box-shadow:6px 8px 20px -15px #64c5ba; */
+
+}
+
+.Login,
+.SignUp {
+  width: 300px;
+  /* height: 60%; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-self: center;
+  justify-self: center;
+  /* padding: 50px; */
+  padding: 30px;
+  color: #216966;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Login::-webkit-scrollbar {
+  display: none;
+}
+
+.SignUp::-webkit-scrollbar {
+  display: none;
+}
+
+.switchableView {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: 500ms;
+  position: absolute;
+  z-index: 2;
+}
+
+.switchableViewMobile {
+  width: 100%;
+  height: 80%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: 500ms;
+  position: absolute;
+  /* z-index: 2; */
+
+}
+
+.switchableBackground {
+  /* background-color: #143f46;
+  opacity: 0.5; */
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+  position: absolute;
+  color: #ffffff;
+  text-shadow: 0 0 0.125em #64c5ba, 0 0 0.45em #64c5ba;
+  /* z-index: 2; */
+}
+
+.switchableBackgroundMobile {
+  width: 100%;
+  height: 20%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+  position: absolute;
+  color: white;
+  color: #ffffff;
+  text-shadow: 0 0 0.125em #64c5ba, 0 0 0.45em #64c5ba;
+
+}
+
+/* .switchableBackgroundMobile button {
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    border-color: white;
+    background-color: inherit;
+    color: white;
+  } */
+.loginSignupButton {
+  cursor: pointer;
+  position: relative;
+  /* border-radius: 30px; */
+  width: 100px;
+  height: 50px;
+  border: #64c5ba solid 1px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  /* border: none; */
+  text-shadow: 0 0 0.125em #1176a4, 0 0 0.45em #64c5ba;
+  /* box-shadow: inset 0 0 0.3em 0 #64c5ba, 0 0 5em 0.3em #64c5ba; */
+  /* clip-path: polygon(10px 0,
+      100% 0,
+      100% 0,
+      100% calc(100% - 10px),
+      calc(100% - 10px) 100%,
+      0 100%,
+      0 100%,
+      0 10px); */
+  background-color: #216966;
+  background-color: inherit;
+  background-image: url("../svg/login_button.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  width: 150px;
+
+}
+
+.loginSignupButton button {
+  outline: none;
+}
+
+/* .loginSignupButton:before {
+  content: "";
+  border: 2px solid #64c5ba;
+  box-shadow: inset 0 0 0.3em 0 #64c5ba, 0 0 5em 0.3em #64c5ba;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  background-color: #64c5ba;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 100% 0, 0 100%, 0 100%, 0 100%, 0 0);
+}
+
+.loginSignupButton:after {
+  content: "";
+  border-bottom: 2px solid #64c5ba;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  box-shadow: inset 0 0 0.3em 0 #64c5ba, 0 0 5em 0.3em #64c5ba;
+  background-color: #64c5ba;
+  clip-path: polygon(100% 0,
+      100% 0,
+      100% 0,
+      100% 100%,
+      100% 100%,
+      0 100%,
+      0 100%,
+      0 100%);
+} */
+
+.sub {
+  cursor: pointer;
+  border: none;
+  position: relative;
+  /* width: 90px; */
+  height: 50px;
+  color: white;
+  color: #64c5ba;
+  color: #216966;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  background-color: #216966;
+  background-color: inherit;
+  /* background-image: url("../svg/login_button.svg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  width: 150px;
+  font-size: 25px;
+
+  /* clip-path: polygon(10px 0,
+      100% 0,
+      100% 0,
+      100% calc(100% - 10px),
+      calc(100% - 10px) 100%,
+      0 100%,
+      0 100%,
+      0 10px); */
+}
+
+.sub:hover {
+  color: #64c5ba;
+  text-shadow:0 0 0.45em #64c5ba;
+}
+
+/* .noSub:hover {
+  background-color: #216966;
+  color: white;
+} */
+
+.noSub {
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #216966;
+  border: none;
+  width: 90px;
+  font-size: 10px;
+  height: 20px;
+  color: #216966;
+  /* color: #64c5ba; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  /* clip-path: polygon(10px 0,
+      100% 0,
+      100% 0,
+      100% calc(100% - 10px),
+      calc(100% - 10px) 100%,
+      0 100%,
+      0 100%,
+      0 10px); */
+}
+
+/* .sub:before {
+  content: "";
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 100% 0, 0 100%, 0 100%, 0 100%, 0 0);
+}
+
+.sub:after {
+  content: "";
+  border-bottom: 1px solid white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  background-color: white;
+  clip-path: polygon(100% 0,
+      100% 0,
+      100% 0,
+      100% 100%,
+      100% 100%,
+      0 100%,
+      0 100%,
+      0 100%);
+}
+
+.noSub:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  background-color: #216966;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 100% 0, 0 100%, 0 100%, 0 100%, 0 0);
+}
+
+.noSub:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  background-color: #216966;
+  clip-path: polygon(100% 0,
+      100% 0,
+      100% 0,
+      100% 100%,
+      100% 100%,
+      0 100%,
+      0 100%,
+      0 100%);
+} */
+
+.divided {
+  border-top: 1px solid #143f46;
+  margin: 25px 0px;
+  width: 100%;
+}
+
+.googlebtn {
+  position: relative !important;
+  padding: 10px 20px !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  background-color: none !important;
+  border: 1px solid #216966 !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  text-align: center !important;
+  color: #216966 !important;
+  /* border-radius: 20px !important; */
+  width: 100% !important;
+  clip-path: polygon(10px 0,
+      100% 0,
+      100% 0,
+      100% calc(100% - 10px),
+      calc(100% - 10px) 100%,
+      0 100%,
+      0 100%,
+      0 10px);
+}
+
+.google544654 span {
+  font-family: SGKara !important;
+  text-align: center !important;
+  /* color: #64c5ba; */
+  /* border-color: #64c5ba; */
+}
+
+.googlebtn:before {
+  content: "";
+  border: 1px solid #0f2d3e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  /* transform: rotate(90deg); */
+  background-color: #0f2d3e;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 100% 0, 0 100%, 0 100%, 0 100%, 0 0);
+}
+
+.googlebtn:after {
+  content: "";
+  border-bottom: 1px solid #0f2d3e;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  width: 10px;
+  z-index: 4;
+  /* transform: rotate(135deg); */
+  background-color: #0f2d3e;
+  /* clip-path: polygon(50% 50%, 50% 50%, 100% 50%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 50%); */
+  clip-path: polygon(100% 0,
+      100% 0,
+      100% 0,
+      100% 100%,
+      100% 100%,
+      0 100%,
+      0 100%,
+      0 100%);
+}
+
+.checkLinks a {
+  color: #216966 !important;
+}
+
+.checkLinks a:hover {
+  color: #64c5ba !important;
+}
+
+.checkLinks a:visited {
+  color: #216966;
+}
+
+label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.check input {
+  position: absolute;
+  transform: scale(0);
+}
+
+.check input:checked~.checkbox {
+  transform: rotate(45deg);
+  width: 15px;
+  margin-left: 16px;
+  border-color: #64c5ba;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 0;
+}
+
+.checkbox {
+  display: block;
+  width: inherit;
+  height: inherit;
+  border: 3px solid #216966;
+  border-radius: 6px;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 800px) {
+  .mainn {
+    padding: 30px;
+  }
+
+  .loginSignupWrapper {
+    height: 85vh;
+  }
+
+}
+
+@media screen and (max-width: 600px) {}

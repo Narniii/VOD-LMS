@@ -1,0 +1,114 @@
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #f0f1f2;
+  }
+  
+  .footer a:hover {
+    color: lightgray;
+  }
+  
+  .footer-links {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .footer-links:hover {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .call-us-text {
+    display: inline-block;
+  }
+  
+  .telephone-link {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+  
+  .telephone-link:hover {
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .footer-aqua-link-to-home {
+    text-decoration: none;
+  }
+  
+  .footer-aqua-link-to-home:hover {
+    text-decoration: none;
+  }
+  
+  .socialmedia-icons-wrapper ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .socialmedia-icons-wrapper ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  .socialmedia-icons-wrapper ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: 0.5s;
+  }
+  
+  .socialmedia-icons-wrapper ul li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  
+  .socialmedia-icons-wrapper ul li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+  }
+  
+  .socialmedia-icons-wrapper ul li a:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+  }
+  .call-us-phone-logo {
+    display: inline-block;
+    /* margin-top: -30px; */
+  }
+  @media (max-width: 576px) {
+    .footer-headers {
+      margin-top: 10px;
+    }
+    .call-us-phone-logo {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126.08 39.35">
+  <defs>
+    <style>
+      @keyframes flicker {
+        from {
+            opacity: 0;
+          }
+        
+          4% {
+            opacity: .01;
+          }
+        
+          6% {
+            opacity: .02;
+          }
+        
+          8% {
+            opacity: .03;
+          }
+        
+          10% {
+            opacity: .04;
+          }
+        
+          11% {
+            opacity: .05;
+          }
+        
+          12% {
+            opacity: .03;
+          }
+        
+          14% {
+            opacity: .01;
+          }
+        
+          16% {
+            opacity: .04;
+          }
+        
+          17% {
+            opacity: .06;
+          }
+        
+          19% {
+            opacity: .07;
+          }
+        
+          20% {
+            opacity: .10;
+          }
+      
+        24% {
+          opacity: 0.22;
+        }
+      
+        26% {
+          opacity: .21;
+        }
+      
+        28% {
+          opacity: .11;
+        }
+      
+        37% {
+          opacity: .10;
+        }
+      
+        38% {
+          opacity: .12;
+        }
+      
+        39% {
+          opacity: .13;
+        }
+      
+        42% {
+          opacity: 0.22;
+        }
+      
+        44% {
+          opacity: .12;
+        }
+      
+        46% {
+          opacity: .15;
+        }
+      
+        56% {
+          opacity: .11;
+        }
+      
+        58% {
+          opacity: .10;
+        }
+      
+        60% {
+          opacity: .19;
+        }
+      
+        68% {
+          opacity: 0.22;
+        }
+      
+        70% {
+          opacity: .11;
+        }
+      
+        72% {
+          opacity: .14;
+        }
+      
+        93% {
+          opacity: .12;
+        }
+      
+        95% {
+          opacity: .13;
+        }
+      
+        97% {
+          opacity: .11;
+        }
+      
+        to {
+          opacity: 0.22;
+        }
+      }  
+      @keyframes draw {
+        0% {
+          stroke-width: 6px;
+          stroke-dasharray: 85 400;
+          stroke-dashoffset: -220;
+        }
+        100% {
+          stroke-dasharray: 50 0;
+          stroke-width: 3px;
+          stroke-dashoffset: 0;
+        }
+      }
+      .cls-1{
+          fill:#70c48f;
+          opacity:0.22;
+          animation: flicker 10s infinite;
+            <!-- filter: drop-shadow(inset 0 0 0.2em 0 #64c5ba, 0 0 5em 0.3em #64c5ba); -->
+            <!-- filter:url(#shadow) -->
+            }
+      .cls-2{
+          fill:none;
+          stroke:#64C5BA;
+          stroke-miterlimit:10;
+          <!-- stroke-width:2px; -->
+          -webkit-animation: 1s draw linear forwards ;
+          animation: 1s draw forwards ;
+          filter: drop-shadow(5px 5px 10px 10px #64c5ba); 
+            <!-- animation-iteration-count: 3; -->
+            <!-- box-shadow: inset 0 0 0.5em 0 #64c5ba, 0 0 0.5em 0 #64c5ba; -->
+            }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+
+      <!-- <filter id="static_blur" x="-50%" y="-50%" width="200%" height="200%" filterUnits="userSpaceOnUse">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+      </filter> -->
+
+      <polygon class="cls-1" points="115.75 38.34 1 38.34 1 8.73 10.32 1 125.08 1 125.08 29.98 115.75 38.34" filter="url(#static_blur)"/>
+      <polygon class="cls-2" points="115.75 38.34 1 38.34 1 8.73 10.32 1 125.08 1 125.08 29.98 115.75 38.34" />
+    </g>
+  </g>
+</svg>

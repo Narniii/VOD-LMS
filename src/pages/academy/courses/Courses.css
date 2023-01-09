@@ -1,0 +1,19 @@
+.overFlowHandler ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overFlowHandler {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.DNXq1n23 .swiper-button-prev {
+  right: 35px !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.DNXq1n23 .swiper-button-next {
+  left: 35px !important;
+  color: black !important;
+  font-weight: bold !important;
+}

@@ -1,0 +1,19 @@
+.newproducts-inputs .form-control {
+  width: 100%;
+  background-color: white !important;
+  height: 60px;
+}
+.newproducts-inputs .form-control:focus {
+  border-color: #64c5ba !important;
+  box-shadow: 0 1px 1px #64c5ba inset, 0 0 8px #64c5ba !important;
+  outline: 0 none !important;
+}
+.overFlowHandler ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overFlowHandler {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

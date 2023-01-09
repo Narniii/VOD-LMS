@@ -1,0 +1,11 @@
+.new-tag .form-control {
+  width: 60%;
+  background-color: white !important;
+  height: 40px;
+  margin: 0 auto;
+}
+.new-tag .form-control:focus {
+  border-color: #64c5ba;
+  box-shadow: 0 1px 1px #64c5ba inset, 0 0 8px #64c5ba;
+  outline: 0 none;
+}

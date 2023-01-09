@@ -1,0 +1,53 @@
+.overFlowHandler ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overFlowHandler {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 5px !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 30px !important;
+}
+.new-quiz-inputs .form-control {
+  width: 60% !important;
+  background-color: white !important;
+  min-height: 60px;
+  margin: 10px 0px;
+}
+.new-quiz-inputs .form-select {
+  width: 60% !important;
+  background-color: white !important;
+  height: 60px;
+  margin: 0 auto;
+}
+.new-quiz-inputs .form-select:focus {
+  height: 60px !important;
+}
+.new-quiz-inputs .form-control:focus {
+  border-color: #64c5ba;
+  box-shadow: 0 1px 1px #64c5ba inset, 0 0 8px #64c5ba;
+  outline: 0 none;
+}
+.css-o4b71y-muiaccordionsummary-content.mui-expanded {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.image-upload > input {
+  display: none;
+}
+.overFlowHandler ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overFlowHandler {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.63366 607.22772">
+<defs><style>
+      @keyframes draw {
+        0% {
+          stroke-width: 6px;
+          stroke-dasharray: 85 400;
+          stroke-dashoffset: -220;
+        }
+        100% {
+          stroke-dasharray: 50 0;
+          stroke-width: 3px;
+          stroke-dashoffset: 0;
+        }
+      }
+
+.cls-1{
+    fill:none;stroke:#fff;
+    stroke-miterlimit:10;
+    stroke-width:1px;  
+    -webkit-animation:2s draw linear forwards;
+    animation: 2s draw linear forwards ;
+    overflow:hidden;
+    }
+</style></defs>
+<path class="cls-1" d="M547.13861,816.396" transform="translate(-362.68317 -210.16832)"/>
+<polyline class="cls-1" points="178.455 606.228 1 606.228 1 43.968 36.053 1 473.634 1 473.634 561.738 443.559 606.228 309.921 606.228 171.01 606.228"/>
+<path class="cls-1" d="M604.50386,816.396" transform="translate(-362.68317 -210.16832)"/>
+<path class="cls-1" d="M602.0297,816.396" transform="translate(-362.68317 -210.16832)"/></svg>

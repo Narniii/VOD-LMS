@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.09 21.09">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#64C5BA;stroke-miterlimit:10;}
+            <!-- .cls-1:hover{fill:red;stroke:none;} -->
+            .cls-2{fill:white}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <polygon class="cls-1" points="18.89 20.59 0.5 20.59 0.5 2.3 2.27 0.5 20.59 0.5 20.59 18.66 18.89 20.59" />
+            <path class="cls-2" d="M7.58,7.05v7.39a.34.34,0,0,0,.51.3l6.35-3.5a.34.34,0,0,0,0-.59L8.1,6.76A.34.34,0,0,0,7.58,7.05Z" />
+        </g>
+    </g>
+</svg>

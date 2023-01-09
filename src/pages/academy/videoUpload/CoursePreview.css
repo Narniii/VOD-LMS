@@ -1,0 +1,41 @@
+.product-single-info-title {
+  background-color: #64c5ba;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 25% !important;
+  height: 40px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+}
+table{
+  border-radius: 10px;
+}
+td,
+tr {
+  padding: 5px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #649987;
+}
+
+tr:nth-child(odd) {
+  background-color: #a8a7a7;
+}
+@media(max-width:576px){
+  .product-single-info-title {
+    background-color: #64c5ba;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 50% !important;
+    height: 40px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+  }
+}
